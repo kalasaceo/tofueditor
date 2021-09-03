@@ -1,0 +1,387 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.kalasa.library" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="24"
+7-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="29" />
+8-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+10-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:5:5-71
+10-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:5:22-68
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:6:5-80
+11-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:8:22-76
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:9:5-60
+15-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:9:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:10:5-70
+16-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:10:19-67
+17
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:11:5-65
+18-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:11:22-62
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:12:5-80
+19-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:5:5-71
+20-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:5:22-68
+21
+22    <application
+22-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:14:5-185:19
+23        android:allowBackup="true"
+23-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:15:9-35
+24        android:label="@string/app_name"
+24-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:16:9-41
+25        android:supportsRtl="true"
+25-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:17:9-35
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:18:9-40
+27        <activity
+27-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:19:9-21:51
+28            android:name="com.daasuu.camerarecorder.ui.activity.VideoRecyclerActivity"
+28-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:20:13-87
+29            android:screenOrientation="portrait" />
+29-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:21:13-49
+30        <activity
+30-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:22:9-24:51
+31            android:name="com.daasuu.camerarecorder.EntryActivity"
+31-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:23:13-67
+32            android:screenOrientation="portrait" />
+32-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:24:13-49
+33        <activity
+33-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:25:9-27:51
+34            android:name="com.daasuu.camerarecorder.FirstEntryActivity"
+34-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:26:13-72
+35            android:screenOrientation="portrait" />
+35-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:27:13-49
+36        <activity
+36-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:28:9-30:51
+37            android:name="com.daasuu.camerarecorder.VideoProcessActivity"
+37-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:29:13-74
+38            android:screenOrientation="portrait" />
+38-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:30:13-49
+39        <activity
+39-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:31:9-33:51
+40            android:name="com.daasuu.camerarecorder.ZoomVideoActivity"
+40-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:32:13-71
+41            android:screenOrientation="portrait" />
+41-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:33:13-49
+42        <activity
+42-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:34:9-36:51
+43            android:name="com.daasuu.camerarecorder.ZoomMultiActivity"
+43-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:35:13-71
+44            android:screenOrientation="portrait" />
+44-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:36:13-49
+45        <activity
+45-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:37:9-39:51
+46            android:name="com.daasuu.camerarecorder.StoryVideoActivity"
+46-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:38:13-72
+47            android:screenOrientation="portrait" />
+47-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:39:13-49
+48        <activity
+48-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:40:9-43:51
+49            android:name="com.daasuu.camerarecorder.AddGiffOnVideoActivity"
+49-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:41:13-76
+50            android:screenOrientation="portrait"
+50-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:43:13-49
+51            android:theme="@style/Theme.AppCompat.Transaprent" />
+51-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:42:13-63
+52        <activity
+52-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:44:9-46:51
+53            android:name="com.daasuu.camerarecorder.BaseCameraActivity"
+53-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:45:13-72
+54            android:screenOrientation="portrait" />
+54-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:46:13-49
+55        <activity
+55-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:47:9-49:51
+56            android:name="com.daasuu.camerarecorder.CommentActivity"
+56-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:48:13-69
+57            android:screenOrientation="portrait" />
+57-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:49:13-49
+58        <activity
+58-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:50:9-52:51
+59            android:name="com.daasuu.camerarecorder.ZoomActivity"
+59-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:51:13-66
+60            android:screenOrientation="portrait" />
+60-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:52:13-49
+61        <activity
+61-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:53:9-55:51
+62            android:name="com.daasuu.camerarecorder.CollageActivity"
+62-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:54:13-69
+63            android:screenOrientation="portrait" />
+63-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:55:13-49
+64        <activity
+64-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:56:9-58:51
+65            android:name="com.daasuu.camerarecorder.StatusOptionsActivity"
+65-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:57:13-75
+66            android:screenOrientation="portrait" />
+66-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:58:13-49
+67        <activity
+67-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:59:9-61:51
+68            android:name="com.daasuu.camerarecorder.ProfileCropper"
+68-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:60:13-68
+69            android:screenOrientation="portrait" />
+69-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:61:13-49
+70        <activity
+70-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:62:9-65:51
+71            android:name="com.daasuu.camerarecorder.CustomDateActivity"
+71-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:63:13-72
+72            android:screenOrientation="portrait"
+72-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:65:13-49
+73            android:theme="@style/Theme.AppCompat.Transaprent" />
+73-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:64:13-63
+74        <activity
+74-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:66:9-69:52
+75            android:name="com.daasuu.camerarecorder.FastAndSlowVideoMotionActivity"
+75-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:67:13-84
+76            android:screenOrientation="portrait"
+76-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:69:13-49
+77            android:theme="@style/Theme.AppCompat.SelfLucent" />
+77-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:68:13-62
+78        <activity
+78-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:70:9-73:51
+79            android:name="com.daasuu.camerarecorder.SearchGiffActivity"
+79-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:71:13-72
+80            android:screenOrientation="portrait"
+80-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:73:13-49
+81            android:theme="@style/Theme.AppCompat.Transaprent" />
+81-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:72:13-63
+82        <activity
+82-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:74:9-78:52
+83            android:name="com.daasuu.camerarecorder.UpdateProfileActivity"
+83-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:75:13-75
+84            android:screenOrientation="portrait"
+84-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:78:13-49
+85            android:theme="@style/Theme.AppCompat.Transaprent"
+85-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:77:13-63
+86            android:windowSoftInputMode="adjustPan" />
+86-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:76:13-52
+87        <activity
+87-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:79:9-81:52
+88            android:name="com.daasuu.camerarecorder.AddCommentActivity"
+88-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:80:13-72
+89            android:screenOrientation="portrait" />
+89-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:81:13-49
+90        <activity
+90-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:82:9-84:52
+91            android:name="com.daasuu.camerarecorder.CombineImagesActivity"
+91-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:83:13-75
+92            android:screenOrientation="portrait" />
+92-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:84:13-49
+93        <activity
+93-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:85:9-87:52
+94            android:name="com.daasuu.camerarecorder.OpenOptions"
+94-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:86:13-65
+95            android:screenOrientation="portrait" />
+95-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:87:13-49
+96        <activity
+96-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:88:9-90:52
+97            android:name="com.daasuu.camerarecorder.ExtractAudioActivity"
+97-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:89:13-74
+98            android:screenOrientation="portrait" />
+98-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:90:13-49
+99        <activity
+99-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:91:9-94:52
+100            android:name="com.daasuu.camerarecorder.ShowUpdateActivity"
+100-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:92:13-72
+101            android:screenOrientation="portrait"
+101-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:94:13-49
+102            android:theme="@style/Theme.AppCompat.Transaprent" />
+102-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:93:13-63
+103        <activity
+103-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:95:9-98:52
+104            android:name="com.daasuu.camerarecorder.AddTextOnVideoActivity"
+104-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:96:13-76
+105            android:screenOrientation="portrait"
+105-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:98:13-49
+106            android:theme="@style/Theme.AppCompat.SelfLucent" />
+106-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:97:13-62
+107        <activity
+107-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:99:9-102:52
+108            android:name="com.daasuu.camerarecorder.ReverseVideoActivity"
+108-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:100:13-74
+109            android:screenOrientation="portrait"
+109-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:102:13-49
+110            android:theme="@style/Theme.AppCompat.SelfLucent" />
+110-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:101:13-62
+111        <activity
+111-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:103:9-105:52
+112            android:name="com.daasuu.camerarecorder.MergeImageAndMP3Activity"
+112-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:104:13-78
+113            android:screenOrientation="portrait" />
+113-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:105:13-49
+114        <activity
+114-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:106:9-109:52
+115            android:name="com.daasuu.camerarecorder.LikeActivity"
+115-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:107:13-66
+116            android:screenOrientation="portrait"
+116-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:109:13-49
+117            android:theme="@style/Theme.AppCompat.Transaprent" />
+117-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:108:13-63
+118        <activity
+118-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:110:9-113:52
+119            android:name="com.daasuu.camerarecorder.LikeActivity2"
+119-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:111:13-67
+120            android:screenOrientation="portrait"
+120-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:113:13-49
+121            android:theme="@style/Theme.AppCompat.Transaprent" />
+121-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:112:13-63
+122        <activity
+122-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:114:9-117:52
+123            android:name="com.daasuu.camerarecorder.PopupMenuAcitivty"
+123-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:115:13-71
+124            android:screenOrientation="portrait"
+124-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:117:13-49
+125            android:theme="@style/Theme.AppCompat.Transaprent" />
+125-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:116:13-63
+126        <activity
+126-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:118:9-120:52
+127            android:name="com.daasuu.camerarecorder.MessageActivity"
+127-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:119:13-69
+128            android:screenOrientation="portrait" />
+128-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:120:13-49
+129        <activity
+129-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:121:9-124:52
+130            android:name="com.daasuu.camerarecorder.AddWaterMarkOnVideoActivity"
+130-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:122:13-81
+131            android:screenOrientation="portrait"
+131-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:124:13-49
+132            android:theme="@style/Theme.AppCompat.SelfLucent" />
+132-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:123:13-62
+133        <activity
+133-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:125:9-128:52
+134            android:name="com.daasuu.camerarecorder.SpeechManipulatorActivity"
+134-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:126:13-79
+135            android:screenOrientation="portrait"
+135-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:128:13-49
+136            android:theme="@style/Theme.AppCompat.SelfLucent" />
+136-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:127:13-62
+137        <activity
+137-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:129:9-132:52
+138            android:name="com.daasuu.camerarecorder.CombineVideosActivity"
+138-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:130:13-75
+139            android:screenOrientation="portrait"
+139-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:132:13-49
+140            android:theme="@style/Theme.AppCompat.Transaprent" />
+140-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:131:13-63
+141        <activity
+141-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:133:9-135:52
+142            android:name="com.daasuu.camerarecorder.IntroActivity"
+142-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:134:13-67
+143            android:screenOrientation="portrait" />
+143-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:135:13-49
+144        <activity
+144-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:136:9-138:52
+145            android:name="com.daasuu.camerarecorder.CombineImageAndVideoActivity"
+145-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:137:13-82
+146            android:screenOrientation="portrait" />
+146-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:138:13-49
+147        <activity
+147-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:139:9-141:52
+148            android:name="com.daasuu.camerarecorder.MergeAudioVideoActivity"
+148-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:140:13-77
+149            android:screenOrientation="portrait" />
+149-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:141:13-49
+150        <activity
+150-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:142:9-144:52
+151            android:name="com.daasuu.camerarecorder.RemoveAudioFromVideoActivity"
+151-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:143:13-82
+152            android:screenOrientation="portrait" />
+152-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:144:13-49
+153        <activity
+153-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:145:9-147:52
+154            android:name="com.daasuu.camerarecorder.ImageToVideoConvertActivity"
+154-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:146:13-81
+155            android:screenOrientation="portrait" />
+155-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:147:13-49
+156        <activity
+156-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:148:9-150:52
+157            android:name="com.daasuu.camerarecorder.VideoRotateFlipActivity"
+157-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:149:13-77
+158            android:screenOrientation="portrait" />
+158-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:150:13-49
+159        <activity
+159-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:151:9-153:52
+160            android:name="com.daasuu.camerarecorder.CutVideoUsingTimeActivity"
+160-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:152:13-79
+161            android:screenOrientation="portrait" />
+161-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:153:13-49
+162        <activity
+162-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:154:9-156:52
+163            android:name="com.daasuu.camerarecorder.VideoToGifActivity"
+163-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:155:13-72
+164            android:screenOrientation="portrait" />
+164-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:156:13-49
+165        <activity
+165-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:157:9-159:52
+166            android:name="com.daasuu.camerarecorder.ExtraOptionsActivity"
+166-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:158:13-74
+167            android:screenOrientation="portrait" />
+167-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:159:13-49
+168        <activity
+168-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:160:9-162:52
+169            android:name="com.daasuu.camerarecorder.OptionsList"
+169-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:161:13-65
+170            android:screenOrientation="portrait" />
+170-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:162:13-49
+171        <activity
+171-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:163:9-165:52
+172            android:name="com.daasuu.camerarecorder.TrimMainActivity"
+172-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:164:13-70
+173            android:screenOrientation="portrait" />
+173-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:165:13-49
+174        <activity
+174-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:166:9-168:52
+175            android:name="com.daasuu.camerarecorder.ProcessActivity"
+175-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:167:13-69
+176            android:screenOrientation="portrait" />
+176-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:168:13-49
+177        <activity
+177-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:169:9-171:52
+178            android:name="com.daasuu.camerarecorder.MainFrameActivity"
+178-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:170:13-71
+179            android:screenOrientation="portrait" />
+179-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:171:13-49
+180        <activity
+180-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:172:9-174:52
+181            android:name="com.daasuu.camerarecorder.PlaygroundActivity"
+181-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:173:13-72
+182            android:screenOrientation="portrait" />
+182-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:174:13-49
+183        <activity
+183-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:175:9-178:45
+184            android:name="com.daasuu.camerarecorder.TrimmerActivity"
+184-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:176:13-69
+185            android:screenOrientation="portrait"
+185-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:177:13-49
+186            tools:ignore="Instantiatable" />
+186-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:178:13-42
+187        <activity
+187-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:179:9-181:52
+188            android:name="com.daasuu.camerarecorder.VoiceRecorderActivity"
+188-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:180:13-75
+189            android:screenOrientation="portrait" />
+189-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:181:13-49
+190
+191        <meta-data
+191-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:182:9-184:57
+192            android:name="preloaded_fonts"
+192-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:183:13-43
+193            android:resource="@array/preloaded_fonts" />
+193-->C:\Users\asus\3D Objects\PrayerEditor\camerarecorder\src\main\AndroidManifest.xml:184:13-54
+194    </application>
+195
+196</manifest>
